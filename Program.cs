@@ -10,7 +10,7 @@ public class Program
         Dictionary<string, string> actionMap = new Dictionary<string, string>
         {
             { "1", "Return" },
-            { "2", "Next" }
+            { "2", "Exit" }
         };
         while (true)
         {
@@ -28,7 +28,7 @@ public class Program
                     case "Return":
                         Console.Clear();
                         break;
-                    case "Next":
+                    case "Exit":
                         return;
                 }
             }
